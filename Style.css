@@ -1,0 +1,49 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: dosis;
+}
+/* .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-around;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+} */
+/* .container{
+    margin:100px;
+} */
+/* .ratio ratio-21x9 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 100000;
+    top: 0px;
+    visibility:visible;
+
+} */
+video {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  main {
+    background: white;
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #eee;
+    
+  }
