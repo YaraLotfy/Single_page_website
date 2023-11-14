@@ -1,7 +1,25 @@
 *{
-    
+    box-sizing: border-box;    
     font-family: dosis;
+
 }
+#portfolio{
+    margin: 10px;
+}
+#services{
+    margin: 10px;
+}
+
+#about{
+    margin: 10px;
+    margin-top: 30px;
+}
+
+h2{
+    padding: 15px;
+}
+
+
 /* .navbar{
     width: 85%;
     margin: auto;
