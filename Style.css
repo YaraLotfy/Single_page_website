@@ -1,13 +1,7 @@
 *{
-    box-sizing: border-box;    
+       
     font-family: dosis;
 
-}
-#portfolio{
-    margin: 10px;
-}
-#services{
-    margin: 10px;
 }
 
 #about{
@@ -15,9 +9,6 @@
     margin-top: 30px;
 }
 
-h2{
-    padding: 15px;
-}
 
 
 /* .navbar{
@@ -49,8 +40,8 @@ h2{
 @media screen and (max-width: 2000px) {
 .container{
     width: 100%;
-    height: 500px;
-    background-color: #3467a9;
+    height: 600px;
+    background-image: linear-gradient(to top right,white,#81b7db );
     margin: 20px auto;
 }
 }
@@ -58,7 +49,7 @@ h2{
     .container2{
         width: 100%;
         height: 600px;
-        background-image: linear-gradient(to bottom right,#81b7dd, rgba(241,240,241,255) );
+        background-image: linear-gradient(to bottom right,#f1f1f1,#81b7db );
         margin: 20px auto;
     }
     }
@@ -85,9 +76,8 @@ video {
     background-color: transparent;
     width: 300px;
     height: 200px;
-    
+    border: 1px solid #f1f1f1;
     perspective: 1000px;
-    
   }
   
   .flip-box-inner {
@@ -97,8 +87,6 @@ video {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    text-align: center;
-    justify-content: space-between;
   }
   
   .flip-box:hover .flip-box-inner {
@@ -109,22 +97,17 @@ video {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    align-content: center;
-    
   }
   
   .flip-box-front {
-    background-color: rgba(129,183,221,255);
-    color: white;
-    padding: 50px ;
+    background-color: #bbb;
+    color: black;
   }
   
   .flip-box-back {
-    background-color: rgba(129,183,221,255);
+    background-color: #3467a9;
     color: white;
-    padding: 10px ;
     transform: rotateY(180deg);
   }
   .row::after {
@@ -135,7 +118,7 @@ video {
 
   }
   .row2 {
-    display: -ms-flexbox; /* IE10 */
+   
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
@@ -179,7 +162,7 @@ video {
 
 
   h2{
-    color: white;
+    color: #114084;
     text-align: center;
   }
   h1{
@@ -189,7 +172,12 @@ video {
   label{
     color:#114084;
   }
-
+  p{
+    color:  #81b7db;
+  }
+ h5{
+    color:#114084;
+ }
 
   input[type=text], select, textarea {
     width: 100%;
@@ -221,3 +209,6 @@ video {
     background-color: #f2f2f2;
     padding: 20px;
   }
+.row4{
+    margin: 20px;
+}
